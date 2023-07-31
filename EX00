@@ -1,0 +1,33 @@
+#include <unistd.h>
+
+
+void ft_print_comb2(void)
+{
+  int x;
+  int y;
+  x = -1;
+  while (++x <= 98)
+  {
+    x = y;
+  }
+  while (++y <= 99)
+  {
+  }
+
+  ft_putchar((char)(x / 10) + "0");
+  ft_putchar((char)(x % 10) + "0");
+  ft_putchar(' ');
+  ft_putchar((char)(y / 10) + "0");
+  ft_putchar((char)(y % 10) + "0");
+}
+if (i != 98)
+{
+  ft_putchar(' , ');
+  ft_putchar(' ');
+}
+
+int main()
+{
+  ft_print_comb2();
+  return (0);
+}
