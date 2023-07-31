@@ -1,0 +1,22 @@
+#include <unistd.h>
+
+void ft_swap(int *a, int *b)
+{
+
+  int t;
+  t = *a;
+  *a = *b;
+  *b = t;
+}
+
+int main()
+{
+
+  int a;
+  int b;
+  a = 5;
+  b = 10;
+  ft_swap(&a, &b);
+
+  return (0);
+}
